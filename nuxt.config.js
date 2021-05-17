@@ -14,8 +14,12 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/gh-pages/favicon.ico' }
     ]
+  },
+
+  router: {
+    base: '/gh-pages/'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -39,5 +43,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    indicator: false
   }
 }
